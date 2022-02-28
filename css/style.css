@@ -1,17 +1,30 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: left;
-  padding: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: block;
 }
 
 /*HEADER*/
 .pattern {
   background-color: blue;
-  background-image: url(img/pattern.pgn);
+  background-image: url(pattern.png);
+  border: 1px solid black;
+  width: 500px;
 }
 
-.logo {
-  font-size: 16px;
+.titolo {
+  font-size: 40px;
+  
+}
+
+.sottotesto {
+  color: rgb(141, 8, 8);
+}
+
+.booleaner {
+  color: rgb(25, 68, 255);
 }
 
 
@@ -28,6 +41,7 @@ table {
 thead {
   background-color: #48adff;
   color: white;
+  text-align: left;
 }
 
 .main2 {
@@ -39,4 +53,5 @@ thead {
 
 footer > div {
   color: grey;
-}
+  
+} 
